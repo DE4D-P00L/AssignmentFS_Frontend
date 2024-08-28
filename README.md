@@ -1,5 +1,10 @@
 # Assignment Frontend
 
+- [Backend Live Preview](https://assignmentfs-backend.onrender.com/ping)
+  | [Backend Code](https://github.com/DE4D-P00L/AssignmentFS_Backend.git)
+- [Frontend Live Preview](https://assignmentfs-frontend.onrender.com/)
+  | [Frontend Code](https://github.com/DE4D-P00L/AssignmentFS_Frontend.git)
+
 ## Description:
 
 This React Vite project is a card management application that allows users to view, create, and search cards. It utilizes Tailwind CSS for styling, @uidotdev/usehooks for debouncing fetch requests, and Axios for API requests. The application provides a user-friendly interface for managing cards with titles and descriptions and HTML `<dialog>` elements for creating modal forms.
