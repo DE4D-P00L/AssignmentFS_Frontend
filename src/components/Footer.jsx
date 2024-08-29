@@ -35,7 +35,7 @@ const Footer = () => {
       <div className="text-center pb-10 flex justify-center items-center flex-wrap">
         <Icon />
         <span className="ml-3">@Copyright 2022</span>
-        <span>Abstract Studios Design, Inc.</span>
+        <span> Abstract Studios Design, Inc.</span>
         <span>All rights reserved</span>
       </div>
     </footer>
