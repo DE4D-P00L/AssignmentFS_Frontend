@@ -24,7 +24,9 @@ const Hero = () => {
       </div>
       <div className="bg-slate-300 min-h-[400px] flex items-center justify-center flex-col gap-10 px-3 sm:px-0">
         <h1 className="font-semibold text-5xl sm:text-6xl">How can we help?</h1>
-        <form className="w-full max-w-[600px] p-2 border border-black bg-white flex justify-between items-center shadow-xl shadow-[rgba(0,0,0,0.05)]">
+        <form
+          onSubmit={(e) => e.preventDefault()}
+          className="w-full max-w-[600px] p-2 border border-black bg-white flex justify-between items-center shadow-xl shadow-[rgba(0,0,0,0.05)]">
           <input
             type="text"
             value={title}
@@ -32,7 +34,7 @@ const Hero = () => {
             placeholder="Search"
             className="min-w-0 w-full p-3"
           />
-          <button type="submit" className="p-2">
+          <button className="p-2 cursor-pointer">
             <img src={arrowImg} alt="submit" className="size-7" />
           </button>
         </form>
