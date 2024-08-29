@@ -23,7 +23,7 @@ const Hero = () => {
         <Header />
       </div>
       <div className="bg-slate-300 min-h-[400px] flex items-center justify-center flex-col gap-10 px-3 sm:px-0">
-        <h1 className="font-semibold text-6xl">How can we help?</h1>
+        <h1 className="font-semibold text-5xl sm:text-6xl">How can we help?</h1>
         <form className="w-full max-w-[600px] p-2 border border-black bg-white flex justify-between items-center shadow-xl shadow-[rgba(0,0,0,0.05)]">
           <input
             type="text"
